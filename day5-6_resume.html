@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三种简历</title>
+</head>
+<body>
+    <div class="changestyle">
+        <p>点击按钮切换对应样式：</p>
+        <input type="button" value="style_1" id="btn-1" ><input type="button" value="style_2" id="btn-2"><input type="button" value="style_3" id="btn-3"><input
+            type="button" value="NoStyle" id="btn-4">
+    </div>
+    <div class="wrap">
+        <h1>简历</h1>
+        <div class="title">
+            <h2>基本信息</h2>
+            <div class="title_info">
+                <span><b>姓名</b>&nbsp;小时</span><span><b>性别</b>&nbsp;男</span><span><b>应聘职位</b>&nbsp;前端工程师</span>
+            </div>
+        </div>
+        <div class="title">
+            <h2>联系方式</h2>
+            <div class="title_info">
+                <span><b>手机</b>&nbsp;12312341234</span><span><b>Email</b>&nbsp;<a href="Mailto:zengtv@outlook.com">zengtv@outlook.com</a></span> <span><b>个人主页</b>&nbsp;<a
+                    href="https://github.com/zengtv" target="_blank">Github</a> &nbsp;<a href="http://zengtv.com" target="_blank">小时部落</a></span>
+            </div>
+        </div>
+        <div class="title">
+            <h2>能力描述</h2>
+            <div class="title_info">
+                <span class="line-break"><b>技术能力</b></span> <span>熟练掌握HTML,CSS,JavaScript</span><br><br>
+                <span class="line-break"><b>综合能力</b></span> <span>良好的沟通。主动积极，努力勤奋</span>
+            </div>
+        </div>
+        <div class="title">
+            <h2>教育经历</h2>
+            <div class="title_info">
+                <span class="line-break"><b>本科</b></span> <span>百度前端学院小薇学院</span><br/>
+            </div>
+        </div>
+        <div class="title">
+            <h2>项目经历</h2>
+            <div class="title_info">
+                <span class="line-break"><b>小度小度</b></span> <span>作为前端工程师角色参与了ABC组件的开发</span><br/><br>
+                <span class="line-break"><b>SAN Doc</b></span> <span>作为文档工程师参与了SAN Doc编写</span>
+            </div>
+        </div>
+    </div>
+    <script>
+        var btn1 = document.getElementById('btn-1');
+        var btn2 = document.getElementById('btn-2');
+        var btn3 = document.getElementById('btn-3');
+        var btn4 = document.getElementById('btn-4');
+        var aCss = ["css/day5-6_style_1.css","css/day5-6_style_2.css","css/day5-6_style_3.css"];
+        var head = document.getElementsByTagName('head')[0];
+
+
+
+        var loadStyle = function(url) {
+            var link = document.createElement('link');
+            link.type='text/css';
+            link.rel = 'stylesheet';
+            link.href = url;
+            head.appendChild(link);
+        };
+        var delStyle = function () {
+            var link1 = document.getElementsByTagName('link')[0];
+            var link2 = document.getElementsByTagName('link')[1];
+            if (link2) {
+                head.removeChild(link1);
+                head.removeChild(link2);
+            }else if (link1) {
+                head.removeChild(link1);
+
+            }
+        };
+
+        btn1.onclick = function () {
+            if (!btn1.disabled) {
+                delStyle();
+
+                loadStyle(aCss[0]);
+                btn1.disabled = true;
+                btn2.disabled = false;
+                btn3.disabled = false;
+            }
+        };
+        btn2.onclick = function () {
+            if (!btn2.disabled) {
+                delStyle();
+
+                loadStyle(aCss[1]);
+                btn2.disabled = true;
+                btn1.disabled = false;
+                btn3.disabled = false;
+            }
+        };
+        btn3.onclick = function () {
+            if (!btn3.disabled) {
+                delStyle();
+
+                loadStyle(aCss[2]);
+                btn3.disabled = true;
+                btn2.disabled = false;
+                btn1.disabled = false;
+            }
+        };
+        btn4.onclick = function () {
+            delStyle();
+            btn1.disabled = false
+            btn2.disabled = false;
+            btn3.disabled = false;
+        }
+    </script>
+</body>
+</html>
