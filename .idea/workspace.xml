@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b98db5f-5bd7-458e-8756-d0f470cd9afd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/day5-6_style_1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/day5-6_style_2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/day5-6_style_3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/day7-8_style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day5-6_resume.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day7-8_index.html" beforeDir="false" />
-    </list>
+    <list default="true" id="8b98db5f-5bd7-458e-8756-d0f470cd9afd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,16 +14,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day5-6_resume.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="day5-6_resume.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day5-6/day5-6_resume.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-432" />
@@ -131,15 +124,15 @@
       <option name="presentableId" value="Default" />
       <updated>1525350350234</updated>
       <workItem from="1525350351590" duration="3245000" />
-      <workItem from="1525594201171" duration="11298000" />
+      <workItem from="1525594201171" duration="11417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14543000" />
+    <option name="totallyTimeSpent" value="14662000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="0" width="1883" height="1002" extended-state="1" />
+    <frame x="42" y="0" width="1883" height="1002" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2498645" />
@@ -219,16 +212,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day5-6/day5-6_resume.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-432" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
       </provider>
     </entry>
   </component>
