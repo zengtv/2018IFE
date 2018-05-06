@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b98db5f-5bd7-458e-8756-d0f470cd9afd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/day5-6_style_1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/day5-6_style_2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/day5-6_style_3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/day7-8_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day5-6_resume.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day7-8_index.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
@@ -26,29 +30,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day7-8_index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day7-8_index.html">
+      <file leaf-file-name="day5-6_resume.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day5-6/day5-6_resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day7-8_style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/day7-8_style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-            </state>
+            <state relative-caret-position="-432" />
           </provider>
         </entry>
       </file>
@@ -104,7 +89,7 @@
             <path>
               <item name="2018IFE" type="b2602c69:ProjectViewProjectNode" />
               <item name="2018IFE" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="day5-6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,15 +131,15 @@
       <option name="presentableId" value="Default" />
       <updated>1525350350234</updated>
       <workItem from="1525350351590" duration="3245000" />
-      <workItem from="1525594201171" duration="10691000" />
+      <workItem from="1525594201171" duration="11298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13936000" />
+    <option name="totallyTimeSpent" value="14543000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="0" width="1883" height="1002" extended-state="0" />
+    <frame x="42" y="0" width="1883" height="1002" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2498645" />
@@ -239,6 +224,11 @@
         <state relative-caret-position="144">
           <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5-6/day5-6_resume.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432" />
       </provider>
     </entry>
   </component>
