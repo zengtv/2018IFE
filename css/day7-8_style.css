@@ -1,0 +1,132 @@
+@charset "utf-8";
+/*~~~~~~~~~~global~~~~~~~~~~~~~~~*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-width: 960px;
+}
+.container {
+    width: 960px;
+    height: inherit;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+/*~~~~~~~~~~~header~~~~~~~~~~~~~*/
+header {
+    height: 80px;
+    background-color: #323232;
+    color: #fff;
+}
+h1 {
+    font-size: 20px;
+    line-height: 80px;
+}
+.header-nav {
+    line-height: 30px;
+}
+.header-nav ul li {
+    float: left;
+    margin-left: 10px;
+    list-style: none;
+}
+.header-nav ul li a {
+    color: #ddd;
+    font-size: 16px;
+}
+/*~~~~~~~~~~~~~~banner~~~~~~~~~~~~~~~~~~~*/
+.banner {
+    position: relative;
+    height: 400px;
+    background-color: #66bb33;
+}
+.banner-number {
+    position: absolute;
+    height: 30px;
+    bottom: 10px;
+    right: 0;
+    margin-left: 360px;
+    left: 50%;
+}
+.banner ul {
+    width: 120px;
+    height: 30px;
+}
+.banner ul li {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #333;
+    background-color: #b2dd99;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    list-style: none;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+/*~~~~~~~~~~~~~~~nav~~~~~~~~~~~~~~~~~~~*/
+nav {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    height: 80px;
+}
+.nav-menu {
+    position: absolute;
+    margin-top: 20px;
+    right: 50%;
+    bottom: -1px;
+    margin-right: 213px;
+}
+.nav-menu span {
+    display: inline-block;
+    width: 90px;
+    height: 50px;
+    margin-right: -1px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-top-left-radius: 20% 35%;
+    border-top-right-radius: 20% 35%;
+    cursor: pointer;
+}
+/*~~~~~~~~~~~~~~~~~~main~~~~~~~~~~~~~~~~~~~*/
+main {
+    padding: 10px 0;
+}
+main .container .row div {
+    padding: 80px;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    flex: 1;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+/*~~~~~~~~~~~~~~footer~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+footer {
+    padding-top: 20px;
+    height: 100px;
+    background-color: #666;
+    text-align: center;
+}
+.copyright {
+    font-size: 14px;
+    margin: 0 auto;
+    color: #fff;
+}
