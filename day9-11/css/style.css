@@ -11,9 +11,7 @@ body {
 .f-fr {
     float: right;
 }
-.g-main {
-}
-/* m-helloworld部分开始 */
+/*------------- m-helloworld部分开始 -------------*/
 .m-helloworld {
     height: 880px;
     background: url("../images/helloworld-bg.jpg") no-repeat;
@@ -77,7 +75,7 @@ body {
     border: none;
     cursor: pointer;
 }
-/* m-introduce1开始 */
+/*------------------- m-introduce1开始 ------------------*/
 .m-introduce1 {
     height: 554px;
     padding-top: 76px;
@@ -108,6 +106,7 @@ body {
     height: 116px;
     margin-right: 48px;
     margin-bottom: 40px;
+    font-size: 14px;
     text-align: left;
 }
 .introduce1-list > li span, .introduce1-list > li div {
@@ -128,7 +127,7 @@ body {
     font-size: 14px;
     word-spacing: 1px;
     letter-spacing: 1px;
-    color: #bbb;
+    color: rgba(0,0,0,.5);
 }
 .introduce1-list .introduce1-list1 {
     background: url("../images/introduce1-list1-bg.jpg") no-repeat;
@@ -142,7 +141,7 @@ body {
 .introduce1-list .introduce1-list4 {
     background: url("../images/introduce1-list4-bg.jpg") no-repeat;
 }
-/* m-supportive开始 */
+/*--------------- m-supportive开始 -----------------*/
 .m-supportive {
     height: 711px;
     background: url("../images/supportive-bg.jpg");
@@ -219,7 +218,7 @@ body {
     background: transparent;
     border: 1px solid rgba(255,255,255,0.2);
 }
-/* m-introduce2开始 */
+/*------------ m-introduce2开始 ----------------*/
 .m-introduce2 {
     height: 353px;
     padding: 80px 0;
@@ -241,10 +240,11 @@ body {
 .introduce2-list > li {
     float: left;
     margin-right: 76px;
-    width: 228px;
+    width: 230px;
     height: 200px;
+    font-size: 14px;
     line-height: 20px;
-    color: #aaa;
+    color: rgba(0,0,0,.5);
     letter-spacing: 1px;
 }
 .introduce2-list > li :after {
@@ -252,7 +252,7 @@ body {
     clear: both;
     height: 0;
 }
-/* m-ad开始 */
+/*----------------- m-ad开始 ----------------*/
 .m-ad {
     height: 688px;
     padding: 100px 0;
@@ -279,11 +279,11 @@ body {
 }
 .m-ad .m-ad-txt p {
     font-size: 14px;
-    color: #aaa;
+    color: rgba(0,0,0,.5);
     line-height: 20px;
     letter-spacing: 1px;
 }
-/* m-person开始 */
+/*------------------ m-person开始 -----------------*/
 .m-person {
     height: 798px;
     padding: 83px 0;
@@ -298,7 +298,7 @@ body {
 .m-person .person-subtitle {
     margin: 0 auto 30px auto;
     width: 500px;
-    color: #999;
+    color: rgba(0,0,0,.5);
     font-size: 14px;
     line-height: 20px;
 }
@@ -345,7 +345,7 @@ body {
 .person-list4 {
     background: url("../images/person-4.jpg");
 }
-/* m-contactus开始 */
+/*------------- m-contactus开始 ----------------*/
 .m-contactus {
     position: relative;
     height: 450px;
@@ -405,9 +405,10 @@ body {
 .contactus-msg > p {
     width: 350px;
     margin-bottom: 80px;
+    font-size: 14px;
     line-height: 22px;
     letter-spacing: 1px;
-    color: #999;
+    color: rgba(0,0,0,.5);
 }
 .u-position, .u-phone, .u-email {
     font-size: 16px;
@@ -415,7 +416,7 @@ body {
     line-height: 26px;
     margin-bottom: 30px;
 }
-/* g-foot开始 */
+/*----------------- g-foot开始 ---------------*/
 .g-foot {
     position: relative;
     height: 164px;
@@ -454,11 +455,4 @@ body {
 .g-foot ul li:first-child {
     color: #fff;
 }
-/*
-.g-foot .foot-more {
-    margin-left: 140px;
-}
-.g-foot .foot-enjoy {
-    margin-right: 0;
-}
-*/
+

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b98db5f-5bd7-458e-8756-d0f470cd9afd" name="Default" comment="" />
+    <list default="true" id="8b98db5f-5bd7-458e-8756-d0f470cd9afd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/day9-11/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/day9-11/css/style.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,20 +16,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+            <state relative-caret-position="216">
+              <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day5-6/index.html">
+        <entry file="file://$PROJECT_DIR$/day9-11/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="954">
-              <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
+            <state relative-caret-position="-108" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day9-11/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="335" column="26" lean-forward="true" selection-start-line="335" selection-start-column="26" selection-end-line="335" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -52,6 +61,7 @@
         <option value="$PROJECT_DIR$/css/day7-8_style.css" />
         <option value="$PROJECT_DIR$/day5-6/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/day9-11/css/style.css" />
       </list>
     </option>
   </component>
@@ -62,8 +72,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
-    <option name="y" value="196" />
+    <option name="x" value="-34" />
+    <option name="y" value="263" />
     <option name="width" value="1883" />
     <option name="height" value="912" />
   </component>
@@ -75,7 +85,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -83,10 +92,22 @@
               <item name="2018IFE" type="b2602c69:ProjectViewProjectNode" />
               <item name="2018IFE" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="2018IFE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018IFE" type="462c0819:PsiDirectoryNode" />
+              <item name="day9-11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2018IFE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018IFE" type="462c0819:PsiDirectoryNode" />
+              <item name="day9-11" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -125,14 +146,15 @@
       <workItem from="1525350351590" duration="3245000" />
       <workItem from="1525594201171" duration="11417000" />
       <workItem from="1525607504466" duration="947000" />
+      <workItem from="1525954927707" duration="1793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15609000" />
+    <option name="totallyTimeSpent" value="17402000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="0" width="1883" height="1002" extended-state="0" />
+    <frame x="-8" y="79" width="1883" height="912" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2498645" />
@@ -163,13 +185,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        <state relative-caret-position="72">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day5-6/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
@@ -184,15 +217,27 @@
     <entry file="file://$PROJECT_DIR$/css/day7-8_style.css" />
     <entry file="file://$PROJECT_DIR$/day5-6/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
+        <state relative-caret-position="18">
           <caret line="53" column="61" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        <state relative-caret-position="216">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day9-11/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day9-11/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="335" column="26" lean-forward="true" selection-start-line="335" selection-start-column="26" selection-end-line="335" selection-end-column="26" />
         </state>
       </provider>
     </entry>
