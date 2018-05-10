@@ -72,6 +72,7 @@ body {
 }
 .u-signup .signup-sbm {
     width: 100px;
+    background-color: #fff;
     border: none;
     cursor: pointer;
 }
