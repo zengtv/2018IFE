@@ -1,0 +1,464 @@
+@charset "utf-8";
+body {
+    width: 100%;
+    min-width: 1140px;
+    font-family: "Montserrat ExtraLight",Arial;
+    overflow-x: hidden;
+}
+.f-fl {
+    float: left;
+}
+.f-fr {
+    float: right;
+}
+.g-main {
+}
+/* m-helloworld部分开始 */
+.m-helloworld {
+    height: 880px;
+    background: url("../images/helloworld-bg.jpg") no-repeat;
+    background-size: cover;
+}
+.m-helloworld .helloworld-bg {
+    height: 696px;
+    padding-top: 184px;
+    text-align: center;
+    background: rgba(0,0,0,0.5) ;
+}
+.m-helloworld h2 {
+    font-size: 44px;
+    line-height: 44px;
+    font-weight: normal;
+    color: #fff;
+}
+.m-helloworld .helloworld-subtitle {
+    width: 688px;
+    margin: 75px auto 0 auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    color: #bbb;
+}
+.m-helloworld .u-signup {
+    width: 802px;
+    height: 120px;
+    padding: 50px 30px;
+    margin: 85px auto 0 auto ;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.u-signup .signup-title {
+    color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+    word-spacing:8px;
+}
+.u-signup .signup-subtitle {
+    color: #999;
+    font-size: 14px;
+    line-height: 40px;
+}
+.u-signup .signup-id, .u-signup .signup-psw, .u-signup .signup-sbm {
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+}
+.u-signup .signup-id, .u-signup .signup-psw {
+    width: 250px;
+    height: 38px;
+    padding-left: 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+    margin-right: 30px;
+    color: #fff;
+    background-color: transparent;
+}
+.u-signup .signup-sbm {
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+/* m-introduce1开始 */
+.m-introduce1 {
+    height: 554px;
+    padding-top: 76px;
+    text-align: center;
+    color: #000;
+}
+.m-introduce1 .introduce1-subtitle {
+    font-size: 14px;
+    line-height: 14px;
+}
+.m-introduce1 h2 {
+    width: 590px;
+    margin: 30px auto 0 auto;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+.m-introduce1 .introduce1-list {
+    width: 928px;
+    height: 272px;
+    margin: 80px auto 0 auto;
+}
+.introduce1-list > li {
+    display: block;
+    float: left;
+    width: 440px;
+    height: 116px;
+    margin-right: 48px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.introduce1-list > li span, .introduce1-list > li div {
+    width: 370px;
+    margin-left: 70px;
+    float: left;
+}
+.introduce1-list > li div {
+    font-size: 16px;
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+}
+.introduce1-list > li span {
+    height: 80px;
+    line-height: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    color: #bbb;
+}
+.introduce1-list .introduce1-list1 {
+    background: url("../images/introduce1-list1-bg.jpg") no-repeat;
+}
+.introduce1-list .introduce1-list2 {
+    background: url("../images/introduce1-list2-bg.jpg") no-repeat;
+}
+.introduce1-list .introduce1-list3 {
+     background: url("../images/introduce1-list3-bg.jpg") no-repeat;
+}
+.introduce1-list .introduce1-list4 {
+    background: url("../images/introduce1-list4-bg.jpg") no-repeat;
+}
+/* m-supportive开始 */
+.m-supportive {
+    height: 711px;
+    background: url("../images/supportive-bg.jpg");
+    background-size: cover;
+}
+.m-supportive .supportive-bg {
+    position: relative;
+    height: 529px;
+    padding: 91px 0;
+    background: rgba(0,0,0,0.5);
+}
+.g-supright {
+    position: relative;
+    margin-left: 80px;
+    float: right;
+    width: 575px;
+    height: 529px;
+    border: 1px solid #999;
+    border-top-left-radius: 7%;
+    border-bottom-left-radius: 7%;
+}
+.g-supright .supright-point {
+    position: absolute;
+    left: 20px;
+    top: 260px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #999;
+    border-radius: 50%;
+}
+.g-supright .supright-bg {
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    width: 525px;
+    height: 450px;
+    background-image: url("../images/supright-bg.jpg") ;
+}
+.g-supleft {
+    position: absolute;
+    right: 50%;
+    top: 71px;
+    margin-right: 0;
+    width: 452px;
+    height: 387px;
+    padding: 71px 0;
+}
+.g-supleft h2 {
+    width: 272px;
+    margin-bottom: 30px;
+    line-height: 40px;
+    font-size: 32px;
+    color: #fff;
+    font-weight: normal;
+}
+.g-supleft .supportive-subtitle {
+    width: 350px;
+    color: #ccc;
+    font-size: 14px;
+    line-height: 24px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.g-supleft .btn-check, .g-supleft .btn-try {
+    width: 200px;
+    height: 50px;
+    margin: 50px 20px 0 0;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+.g-supleft .btn-try {
+    color: #ccc;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+/* m-introduce2开始 */
+.m-introduce2 {
+    height: 353px;
+    padding: 80px 0;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.m-introduce2 h2 {
+    font-size: 32px;
+    font-weight: normal;
+}
+.m-introduce2 .introduce2-list {
+    width: 850px;
+    height: 200px;
+    padding-top: 64px;
+    margin: 70px auto 0 auto;
+    background: url("../images/introduce2-list-bg.jpg") no-repeat 54px 0;
+    background-size: 720px 42px;
+}
+.introduce2-list > li {
+    float: left;
+    margin-right: 76px;
+    width: 228px;
+    height: 200px;
+    line-height: 20px;
+    color: #aaa;
+    letter-spacing: 1px;
+}
+.introduce2-list > li :after {
+    content: "";
+    clear: both;
+    height: 0;
+}
+/* m-ad开始 */
+.m-ad {
+    height: 688px;
+    padding: 100px 0;
+    border-bottom: 1px solid #ccc;
+}
+.ad-1, .ad-2 {
+    width: 850px;
+    height: 313px;
+    margin: 0 auto 90px auto;
+}
+.m-ad .ad-img {
+    width: 508px;
+}
+.m-ad .m-ad-txt {
+    width: 300px;
+    height: 312px;
+}
+.m-ad .m-ad-txt div {
+    width: 300px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    font-size: 20px;
+    color: #000;
+}
+.m-ad .m-ad-txt p {
+    font-size: 14px;
+    color: #aaa;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+/* m-person开始 */
+.m-person {
+    height: 798px;
+    padding: 83px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+.m-person h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: normal;
+}
+.m-person .person-subtitle {
+    margin: 0 auto 30px auto;
+    width: 500px;
+    color: #999;
+    font-size: 14px;
+    line-height: 20px;
+}
+.person-list {
+    margin: 0 auto;
+    width: 850px;
+}
+.person-list > li {
+    float: left;
+    margin: 0 14px 14px 0;
+    width: 410px;
+    height: 302px;
+    background-size: cover;
+}
+.person-list > li > a {
+    display: block;
+    width: 410px;
+    height: 102px;
+    padding: 100px 0;
+    background: #000;
+    opacity: 0;
+}
+.person-list > li > a:hover {
+    opacity: 0.5;
+}
+.person-list > li > a > span {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.person-list > li > a > p {
+    color: #999;
+}
+.person-list1 {
+    background: url("../images/person-1.jpg");
+}
+.person-list2 {
+    background: url("../images/person-2.jpg");
+}
+.person-list3 {
+    background: url("../images/person-3.jpg");
+}
+.person-list4 {
+    background: url("../images/person-4.jpg");
+}
+/* m-contactus开始 */
+.m-contactus {
+    position: relative;
+    height: 450px;
+    padding: 80px;
+}
+.contactus-form {
+    position: absolute;
+    top: 80px;
+    right: 50%;
+    width: 408px;
+    height: 390px;
+    padding: 30px 0;
+    margin-right: 14px;
+    border-radius: 6px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.contactus-form > span {
+    display: block;
+    width: 400px;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 18px;
+}
+.contactus-form > input {
+    width: 300px;
+    height: 40px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.contactus-form > textarea {
+    width: 285px;
+    height: 120px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+.contactus-msg {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: 14px;
+    width: 358px;
+    height: 440px;
+    padding: 30px 0 30px 50px;
+    text-align: left;
+}
+.contactus-msg span {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #000;
+    line-height: 34px;
+}
+.contactus-msg > p {
+    width: 350px;
+    margin-bottom: 80px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #999;
+}
+.u-position, .u-phone, .u-email {
+    font-size: 16px;
+    color: #000;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+/* g-foot开始 */
+.g-foot {
+    position: relative;
+    height: 164px;
+    padding: 100px 0;
+    background-color: #000;
+}
+.g-foot ul {
+    position: absolute;
+    color: #666;
+}
+.g-foot ul:nth-child(1) {
+    top: 100px;
+    right: 50%;
+    margin-right: 400px;
+}
+.g-foot ul:nth-child(2) {
+    top: 100px;
+    right: 50%;
+    margin-right: 100px;
+}
+.g-foot ul:nth-child(3) {
+    top: 100px;
+    left: 50%;
+    margin-left: 100px;
+}
+.g-foot ul:nth-child(4) {
+    top: 100px;
+    left: 50%;
+    margin-left: 400px;
+}
+.g-foot ul li {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.g-foot ul li:first-child {
+    color: #fff;
+}
+/*
+.g-foot .foot-more {
+    margin-left: 140px;
+}
+.g-foot .foot-enjoy {
+    margin-right: 0;
+}
+*/
