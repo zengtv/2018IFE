@@ -28,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day12-15/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="322" column="102" selection-start-line="322" selection-start-column="102" selection-end-line="322" selection-end-column="102" />
+            <state relative-caret-position="90">
+              <caret line="212" column="86" selection-start-line="212" selection-start-column="86" selection-end-line="212" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -37,8 +37,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day12-15/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3564">
-              <caret line="393" column="15" lean-forward="true" selection-start-line="393" selection-start-column="15" selection-end-line="393" selection-end-column="15" />
+            <state relative-caret-position="306">
+              <caret line="486" column="4" selection-start-line="486" selection-start-column="4" selection-end-line="487" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -75,7 +75,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-11" />
     <option name="y" value="21" />
     <option name="width" value="1883" />
@@ -156,12 +156,12 @@
       <workItem from="1525594201171" duration="11417000" />
       <workItem from="1525607504466" duration="947000" />
       <workItem from="1525954927707" duration="2474000" />
-      <workItem from="1526299473491" duration="3333000" />
+      <workItem from="1526299473491" duration="4316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21416000" />
+    <option name="totallyTimeSpent" value="22399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="21" width="1883" height="912" extended-state="0" />
@@ -268,15 +268,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day12-15/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="322" column="102" selection-start-line="322" selection-start-column="102" selection-end-line="322" selection-end-column="102" />
+        <state relative-caret-position="90">
+          <caret line="212" column="86" selection-start-line="212" selection-start-column="86" selection-end-line="212" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day12-15/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3564">
-          <caret line="393" column="15" lean-forward="true" selection-start-line="393" selection-start-column="15" selection-end-line="393" selection-end-column="15" />
+        <state relative-caret-position="306">
+          <caret line="486" column="4" selection-start-line="486" selection-start-column="4" selection-end-line="487" selection-end-column="34" />
         </state>
       </provider>
     </entry>
