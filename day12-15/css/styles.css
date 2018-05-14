@@ -212,7 +212,6 @@ body {
 .g-main {
     margin-left: 350px;
 }
-
 /*------------------ head -------------------*/
 .g-head {
     position: fixed;
@@ -389,7 +388,6 @@ body {
     height: 30px;
     line-height: 30px;
 }
-
 /*---------------- article ----------------*/
 .g-article {
     position: relative;
@@ -401,6 +399,11 @@ body {
     position: absolute;
     top: 150px;
     width: 400px;
+    height: calc(100vh - 150px);
+    overflow-y: auto;
+}
+.g-article-left::-webkit-scrollbar{
+    display:none;
 }
 .m-chatlist {
     width: 100%;
@@ -415,6 +418,7 @@ body {
     padding: 15px 20px;
     border: 1px solid rgba(0,0,0,.1);
     border-top: none;
+    cursor: pointer;
 }
 .m-chatlist li .msg {
     width: 358px;
@@ -476,11 +480,11 @@ body {
     position: absolute;
     top: 150px;
     margin-left: 400px;
-    /*height: 700px;*/
+    height: calc(100vh - 250px);
+    overflow-y: auto;
 }
-.m-chatrecord {
-    /*height: 500px;*/
-
+.g-article-right::-webkit-scrollbar{
+    display:none;
 }
 .m-chatrecord .date {
     position: absolute;
@@ -533,6 +537,9 @@ body {
     display: block;
     line-height: 20px;
     color: rgba(0,0,0,.6);
+}
+.m-chatrecord ul li img {
+    margin: 10px 10px 0 0;
 }
 .m-chatnow ul {
     position: relative;
@@ -591,14 +598,17 @@ body {
     border-bottom-left-radius: 4px;
 }
 .m-chatnow .onput {
-    width: 95%;
+    position: fixed;
+    bottom: 20px;
+    width: 59vw;
     height: 60px;
-    margin: 0 auto;
+    margin: 0 20px;
     border: 1px solid rgba(0,0,0,.1);
     border-radius: 4px;
+    z-index: 999;
 }
 .m-chatnow input {
-    width: 80%;
+    width: calc(100% - 62px);
     height: 58px;
     padding-left: 10px;
     line-height: 60px;
