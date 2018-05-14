@@ -1,0 +1,605 @@
+@charset "utf-8";
+/*----------------- reset -----------------*/
+*{box-sizing:border-box;}
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,\5b8b\4f53;color:#333;outline:0;}
+body{background:#fff;}
+a,a:hover{color:#333;}
+input,button{outline:none;border:none;}
+/*----------------- global -----------------*/
+body {
+    width: 100%;
+    min-width: 1190px;
+    font-family: "ProximaNova Semibold",arial,"YaHei";
+    scroll: no;
+}
+.g-wrap {
+    width: 100%;
+    /*height: 100vh;*/
+    margin-left: -350px;
+}
+.f-fl {
+    float: left;
+}
+.f-fr {
+    float: right;
+}
+.f-cl:after {
+
+}
+.s-fc {
+    color: rgba(0,0,0,.5);
+}
+/*------------------ aside -----------------*/
+.g-fixasd {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100vh;
+    /*height: 100%;*/
+    background-color: #1d2531;
+}
+
+.m-fixasd-btn {
+    position: fixed;
+    top: 18px;
+    left: 0;
+    width: 100px;
+}
+.m-fixasd-btn .btn-list {
+    width: 100px;
+}
+.m-fixasd-btn li {
+    position: relative;
+    width: 100px;
+    height: 64px;
+    margin-bottom: 20px;
+    line-height: 64px;
+}
+.m-fixasd-btn .point{
+    display: none;
+    width: 4px;
+    height: 4px;
+    margin-left: -2px;
+    border-radius: 50%;
+}
+.m-fixasd-btn .btn {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 64px;
+    height: 64px;
+    margin-left: -34px;
+    color: #fff;
+    border-radius: 50%;
+}
+.m-fixasd-btn .btn-add {
+    border: 3px solid #2d3848;
+    background-color: #1d2531;
+}
+.m-fixasd-btn .btn i {
+    margin: 0 auto;
+    font-size: 26px;
+    line-height: 60px;
+    color: #fff;
+}
+.m-fixasd-foot {
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
+    width: 64px;
+    height: 20px;
+    text-align: center;
+}
+.m-fixasd-foot .manage, .m-fixasd-foot .setting {
+    display: inline-block;
+    width: 28px;
+    margin: 0 2px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    color: #475364;
+    cursor: pointer;
+}
+/*------------------ nav ------------------*/
+.g-fixnav {
+    position: fixed;
+    top: 0;
+    left: 100px;
+    display: inline-block;
+    width: 250px;
+    height: 100vh;
+    padding-top: 20px;
+    overflow: hidden;
+    background-color: #222c3c;
+}
+.m-fixnav-list .menu, .m-fixnav-list .products, .m-fixnav-list .dashboard {
+    width: 190px;
+    padding: 20px 0;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(91,103,121,.3);
+    color: #b7c0cd;
+    font-size: 14px;
+    text-align: left;
+}
+.m-fixnav-list .products .txt {
+    margin-left: 10px;
+}
+.m-fixnav-list ul li {
+    position: relative;
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.m-fixnav-list ul li .point {
+    position: absolute;
+    display: none;
+    top: 14px;
+    left: -32px;
+    width: 4px;
+    height: 4px;
+    background-color: #2096ef;
+    border-radius: 50%;
+}
+.m-fixnav-list ul li .num {
+    display: none;
+    margin-top: 5px;
+    float: right;
+    width: 30px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    vertical-align: middle;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #2096ef;
+}
+.m-fixnav-list ul li:nth-child(1) {
+    color: #5b6779;
+    cursor: default;
+    margin-bottom: 10px;
+}
+.m-fixnav-list ul li:nth-child(1) i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.m-fixnav-count {
+    position: fixed;
+    bottom: 20px;
+    left: 90px;
+    margin-left: 35px;
+    color: #fff;
+}
+.m-fixnav-count span {
+    margin-left: 6px;
+    font-size: 14px;
+}
+.m-fixnav-count .proportion {
+    width: 176px;
+    height: 3px;
+    margin: 15px 0 0 6px;
+    background-color: #475364;
+}
+.m-fixnav-count .proportion .pro-bg {
+    width: 18%;
+    height: 3px;
+    background-color: #998ae3;
+}
+/*------------------ main -----------------*/
+.g-main {
+    margin-left: 350px;
+}
+
+/*------------------ head -------------------*/
+.g-head {
+    position: fixed;
+    top: 0;
+    left: 350px;
+    width: 100%;
+    height: 150px;
+    background: #fff;
+    z-index: 99;
+}
+.m-head1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.m-head1 .title {
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #000;
+    line-height: 80px;
+}
+.m-head1 .person {
+    position: fixed;
+    width: 210px;
+    height: 50px;
+    top: 15px;
+    right: 30px;
+}
+.m-head1 .pic {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url("https://avatars0.githubusercontent.com/u/38457386?s=460&v=4") no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.m-head1 .state {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.m-head1 .state-bg {
+    width: 14px;
+    height: 14px;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: #43ac72;
+}
+.m-head1 .point {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.m-head1 .msg {
+    float: left;
+    width: 120px;
+    height: 50px;
+    padding: 8px 0;
+    margin-left: 20px;
+}
+.m-head1 .name {
+    color: #2096ef;
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+.m-head1 .id {
+    color: #ccc;
+    font-size: 14px;
+}
+.m-head1  .mange {
+    float: left;
+    width: 20px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #ccc;
+    cursor: pointer;
+}
+.m-head2 {
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.m-head2 .search {
+    position: relative;
+    width: 400px;
+    height: 70px;
+    padding: 15px 30px;
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+.m-head2 .search input {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 3px;
+}
+.m-head2 .search i {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    background-color: #fff;
+    color: #999;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.m-head2 .who {
+    height: 70px;
+    margin-left: 20px;
+}
+.m-head2 .name {
+    line-height: 70px;
+    font-size: 20px;
+    color: rgba(0,0,0,.6);
+}
+.m-head2 .point {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-left: 5px;
+    background-color: #1bb934;
+    border-radius: 50%;
+}
+.m-head2 .paging {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    width: 150px;
+    height: 30px;
+    padding-left: 15px;
+    border-left: 1px solid rgba(0,0,0,.1);
+    line-height: 70px;
+    font-size: 14px;
+}
+.m-head2  i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: -1px;
+    text-align: center;
+    color: #CCC;
+    background-color: #f6f7fa;
+    border: 1px solid rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+.m-head2 .page {
+    display: inline-block;
+    width: 45px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    color: #333;
+}
+.m-head2 .btn {
+    position: fixed;
+    top: 100px;
+    right: 165px;
+    height: 30px;
+    line-height: 30px;
+}
+
+/*---------------- article ----------------*/
+.g-article {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+}
+.g-article-left {
+    position: absolute;
+    top: 150px;
+    width: 400px;
+}
+.m-chatlist {
+    width: 100%;
+}
+.m-chatlist ul {
+    width: 100%;
+}
+.m-chatlist li {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    padding: 15px 20px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-top: none;
+}
+.m-chatlist li .msg {
+    width: 358px;
+    height: 50px;
+}
+.m-chatlist li .msg .pic {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.m-chatlist li .msg .who {
+    float: left;
+    height: 50px;
+    margin-left: 20px;
+    padding: 5px 0;
+}
+.m-chatlist li .msg .who .point {
+    display: none;
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: #2096ef;
+}
+.m-chatlist li .msg .who .name {
+    font-size: 16px;
+    color: rgba(0,0,0,.7);
+}
+.m-chatlist li .msg .who .company {
+    margin-top: 5px;
+    color: #ccc;
+}
+.m-chatlist li .msg .date {
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    color: #999;
+}
+.m-chatlist li .text {
+    padding-top: 10px;
+}
+.m-chatlist li .text .txt {
+    display: inline-block;
+    width: 334px;
+    line-height: 18px;
+    color: rgba(0,0,0,.6);
+}
+.m-chatlist li .text .num {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #2096ef;
+    color: #fff;
+}
+.g-article-right {
+    position: absolute;
+    top: 150px;
+    margin-left: 400px;
+    /*height: 700px;*/
+}
+.m-chatrecord {
+    /*height: 500px;*/
+
+}
+.m-chatrecord .date {
+    position: absolute;
+    display: block;
+    bottom: -7px;
+    left: 50%;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #999;
+    background-color: #fff;
+}
+.m-chatrecord ul {
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.m-chatrecord ul li {
+    position: relative;
+    padding-left: 60px;
+    margin: 20px;
+}
+.m-chatrecord ul li .headpic {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.m-chatrecord ul li .msg {
+    width: 100%;
+}
+.m-chatrecord ul li .name {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: rgba(0,0,0,.8);
+}
+.m-chatrecord ul li .time {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    line-height: 30px;
+    color: #ccc;
+}
+.m-chatrecord ul li .txt {
+    display: block;
+    line-height: 20px;
+    color: rgba(0,0,0,.6);
+}
+.m-chatnow ul {
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.m-chatnow ul li {
+    position: relative;
+    padding-left: 60px;
+    margin: 20px;
+}
+.m-chatnow ul li .headpic {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.m-chatnow ul li .msg {
+    width: 100%;
+}
+.m-chatnow ul li .name {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: rgba(0,0,0,.8);
+}
+.m-chatnow ul li .time {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    line-height: 30px;
+    color: #ccc;
+}
+.m-chatnow ul li .txt {
+    display: block;
+    line-height: 20px;
+    color: rgba(0,0,0,.6);
+}
+.m-chatnow i {
+    display: inline-block;
+    width: 60px;
+    height: 58px;
+    bottom: 1px;
+    right: 50%;
+    line-height: 60px;
+    font-size: 22px;
+    color: #ccc;
+    text-align: center;
+    background-color: #f6f7fa;
+    border-right: 1px solid rgba(0,0,0,.1);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.m-chatnow .onput {
+    width: 95%;
+    height: 60px;
+    margin: 0 auto;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 4px;
+}
+.m-chatnow input {
+    width: 80%;
+    height: 58px;
+    padding-left: 10px;
+    line-height: 60px;
+}

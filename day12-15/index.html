@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>一个复杂页面</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- 代码规范遵循网易nec -->
+
+    <!-- 页面 -->
+    <div class="g-wrap f-fr">
+        <!-- 固定边栏start -->
+        <aside class="g-fixasd f-fl">
+            <div class="m-fixasd-btn">
+                <ul class="btn-list">
+                    <li>
+                        <span class="point" style="display: inline-block;background-color: #2096ef;"></span>
+                        <button class="btn" style="background: #2096ef;"><i class="fa fa-paper-plane"></i></button>
+                    </li>
+                    <li>
+                        <span class="point"></span>
+                        <button class="btn" style="background: #927ae4"><i class="fa fa-rocket"></i></button>
+                    </li>
+                    <li>
+                        <span class="point"></span>
+                        <button class="btn" style="background: #e74529"><i class="fa fa-gamepad"></i></button>
+                    </li>
+                    <li>
+                        <span class="point"></span>
+                        <button class="btn btn-add"><i class="fa fa-plus" style="color: #2d3848;"></i></button>
+                    </li>
+                </ul>
+            </div>
+            <div class="m-fixasd-foot">
+                <i class="manage fa fa-th-large"></i><i class="setting fa fa-cog"></i>
+            </div>
+        </aside>
+        <!-- 固定导航栏start -->
+        <nav class="g-fixnav f-fl">
+            <div class="m-fixnav-list">
+                <ul class="menu">
+                    <li>
+                        <span class="title">MENU</span>
+                        <i class="fa fa-cog"></i>
+                    </li>
+                    <li>
+                        <span class="point"></span>
+                        <span class="txt">Overview</span>
+                        <span class="num"></span>
+                    </li>
+                    <li>
+                        <span class="point"></span>
+                        <span class="txt">Sales</span>
+                        <span class="num" style="display: inline-block">54</span>
+                    </li>
+                    <li>
+                        <span class="point"></span>
+                        <span class="txt">Your Staff</span>
+                        <span class="num"></span>
+                    </li>
+                    <li>
+                        <span class="point"></span>
+                        <span class="txt">Analytic & Targeting</span>
+                        <span class="num"></span>
+                    </li>
+
+                    <li>
+                        <span class="point"></span>
+                        <span class="txt">What's New</span>
+                        <span class="num"></span>
+                    </li>
+                </ul>
+                <ul class="products">
+                    <li>
+                        <span class="title">YOUR PRODUCTS</span>
+                        <i class="fa fa-cog f-fr"></i>
+                    </li>
+                    <li>
+                        <span class="point"></span>
+                        <i class="fa fa-book"></i>
+                        <span class="txt">Books</span>
+                        <span class="num"></span>
+                    </li>
+                    <li><span class="point"></span>
+                        <i class="fa fa-video-camera"></i>
+                        <span class="txt">Tutorials</span>
+                        <span class="num"></span>
+                    </li>
+                    <li><span class="point"></span>
+                        <i class="fa fa-image (alias)"></i>
+                        <span class="txt">Stocks</span>
+                        <span class="num"></span>
+                    </li>
+                    <li><span class="point"></span>
+                        <i class="fa fa-bar-chart"></i>
+                        <span class="txt">Infographics</span>
+                        <span class="num"></span>
+                    </li>
+                </ul>
+                <ul class="dashboard" style="border: none">
+                    <li>
+                        <span class="title">DASHBOARD</span>
+                        <i class="fa fa-cog f-fr"></i>
+                    </li>
+                    <li>
+                        <span class="point" style="display: inline-block"></span>
+                        <span class="txt">Messages</span>
+                        <span class="num" style="display: inline-block">21</span>
+                    </li>
+                    <li>
+                        <span class="point"></span>
+                        <span class="txt">Connections</span>
+                        <span class="num"></span>
+                    </li>
+                    <li>
+                        <span class="point"></span>
+                        <span class="txt">Integrations</span>
+                        <span class="num" style="display: inline-block; width: 20px; background: #dd3c1f;">!</span>
+                    </li>
+                    <li>
+                        <span class="point"></span>
+                        <span class="txt">Accounts Settings</span>
+                        <span class="num"></span>
+                    </li>
+                    <li>
+                        <span class="point"></span>
+                        <span class="txt">App Settings</span>
+                        <span class="num"></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="m-fixnav-count">
+                <span class="name">Monthly Goals</span>
+                <span class="money">$580/$3200</span>
+                <div class="proportion">
+                    <div class="pro-bg"></div>
+                </div>
+            </div>
+        </nav>
+        <!-- 主体start -->
+        <div class="g-main">
+            <!-- 主体头部start -->
+            <div class="g-head">
+                <div class="m-head1">
+                    <span class="title">Messages</span>
+                    <div class="person">
+                        <div class="pic" onclick="window.open('https://github.com/zengtv')">
+                            <div class="state">
+                                <div class="state-bg">
+                                    <div class="point"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="msg">
+                            <div class="name">Zengtv</div>
+                            <div class="id">Administrator</div>
+                        </div>
+                        <div class="mange">
+                            <i class="fa fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-head2">
+                    <div class="search f-fl">
+                        <input type="text" placeholder="Search">
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <div class="who f-fl">
+                        <span class="name">Bessie Berry</span>
+                        <span class="point"></span>
+                    </div>
+                    <div class="paging">
+                        <span class="page f-fl">1 of 28</span>
+                        <i class="fa fa-caret-left f-fl" style="border-top-left-radius: 5px;border-bottom-left-radius: 5px;"></i><i class="fa fa-caret-right f-fl" style="border-top-right-radius: 5px; border-bottom-right-radius: 5px;"></i>
+                    </div>
+                    <div class="btn">
+                        <i class="fa fa-user-plus" style="border-top-left-radius: 5px;border-bottom-left-radius: 5px;"></i><i class="fa fa-upload"></i><i class="fa fa-trash" style="border-top-right-radius: 5px; border-bottom-right-radius: 5px;"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- 主体内容start -->
+            <div class="g-article">
+                <div class="g-article-left f-fl">
+                    <!-- 会话列表start -->
+                    <div class="m-chatlist">
+                        <ul>
+                            <li style="border-left: 3px solid #2096ef">
+                                <div class="msg">
+                                    <img class="pic" src="images/person1.png">
+                                    <div class="who">
+                                        <span class="point" style="display: inline-block"></span><span class="name" style="color: #2096ef">Bessie Berry</span>
+                                        <div class="company">Twitter</div>
+                                    </div>
+                                    <div class="date">3m</div>
+                                </div>
+                                <div class="text">
+                                    <p class="txt">I pay for the 4Mb/sec down, 512 Kb/sec up service from O2. In fact, it's relatively quick, and stable...</p>
+                                    <span class="num f-fr">4</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="msg">
+                                    <img class="pic" src="images/person2.jpg">
+                                    <div class="who">
+                                        <span class="point"></span><span class="name">Robin</span>
+                                        <div class="company">Baidu</div>
+                                    </div>
+                                    <div class="date">8m</div>
+                                </div>
+                                <div class="text">
+                                    <p class="txt">你好,这周末有时间吗?有时间的话方便来面试一下前端吧。我派车过去接你</p>
+                                    <span class="num"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="msg">
+                                    <img class="pic" src="images/person3.png">
+                                    <div class="who">
+                                        <span class="point"></span><span class="name">GAKKI</span>
+                                        <div class="company">LesPros Entertainment</div>
+                                    </div>
+                                    <div class="date">Yesterday</div>
+                                </div>
+                                <div class="text">
+                                    <p class="txt">体に気をつけて、病気にならないように気をつけてください。あなたのことが好きです(*^▽^*)</p>
+                                    <span class="num"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="msg">
+                                    <img class="pic" src="images/person4.jpg">
+                                    <div class="who">
+                                        <span class="point"></span><span class="name">Pony</span>
+                                        <div class="company">Tencent</div>
+                                    </div>
+                                    <div class="date">Yesterday</div>
+                                </div>
+                                <div class="text">
+                                    <p class="txt">为什么不选择我们腾讯的前端岗位，是薪酬不满意吗？这样吧，再给你加20K每月你再考虑一下吧。</p>
+                                    <span class="num"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="msg">
+                                    <img class="pic" src="images/person5.jpg">
+                                    <div class="who">
+                                        <span class="point"></span><span class="name">Jack Ma</span>
+                                        <div class="company">Alibaba</div>
+                                    </div>
+                                    <div class="date">13 Jun</div>
+                                </div>
+                                <div class="text">
+                                    <p class="txt">小伙子，满意的话明天就来上班吧。我亲自去接你</p>
+                                    <span class="num"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="msg">
+                                    <img class="pic" src="images/person6.png">
+                                    <div class="who">
+                                        <span class="point"></span><span class="name">徐娇</span>
+                                        <div class="company">Student</div>
+                                    </div>
+                                    <div class="date">12 Jun</div>
+                                </div>
+                                <div class="text">
+                                    <p class="txt">求求你不要跟我分手好不好..我哪里做的不好，我改</p>
+                                    <span class="num"></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="msg">
+                                    <img class="pic" src="images/person7.jpg">
+                                    <div class="who">
+                                        <span class="point"></span><span class="name">王思聪</span>
+                                        <div class="company">普思投资</div>
+                                    </div>
+                                    <div class="date">9 Jun</div>
+                                </div>
+                                <div class="text">
+                                    <p class="txt">是不是没零花钱了？给你卡里打了五百万，不够就说一声，咱哥俩谁跟谁！</p>
+                                    <span class="num"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="g-article-right">
+                    <!-- 会话记录start -->
+                    <div class="m-chatrecord">
+                        <ul>
+                            <li>
+                                <img class="headpic" src="images/person1.png">
+                                <div class="msg">
+                                    <span class="name">Bessie Berry</span>
+                                    <span class="time">8:31 AM</span>
+                                </div>
+
+                                <p class="txt">Hi guys Ive got the O2 package and have really slow internet. A speed check online said i can get 3mbps but it seems more like 0.5 these days, just freezing and taking ages to open pages and open audio files for example. I have decided to switch to the UPC package which offers 10mbps but do you think i will get it?</p>
+                            </li>
+                            <li>
+                                <img class="headpic" src="https://avatars0.githubusercontent.com/u/38457386?s=460&v=4">
+                                <span class="name">zengtv</span>
+                                <span class="time">8:31 AM</span>
+                                <p class="txt">I have internet for 9 month and nevere could benefit from the full capacity of 5Mbit/s as it is filtered by O2 when it detect traffic on public p2p sharing in my situation all my internet speed slows to 512Kbit/s. I never had 400KB/s on when downloading from p2p public servers like torrent emule etc. I downoad with 500KB/s from private trakers instead. So conlcusion O2 block trafic on p2p connections. I have made hundreds of test in Italy and Sweden and Romania with the same file to doanload with the same setting and same antivirus and just needed to open ports in firewall and forward same ports and the speed was at full capacity in 1 minute. here in 9 month never had this luck.</p>
+                            </li>
+                            <li><span class="date">Tuesday</span></li>
+                        </ul>
+                        <ul style="border-bottom: 1px solid rgba(32,150,239,.4)">
+                            <li>
+                                <img class="headpic" src="images/person1.png">
+                                <span class="name">Bessie Berry</span>
+                                <span class="time">8:31 AM</span>
+                                <p class="txt">Funny comparison. so would the proper antivirus not slow down the internet as much or do you mean a freebie doenst protect the computer from viruses?</p>
+                            </li>
+                            <li>
+                                <img class="headpic" src="https://avatars0.githubusercontent.com/u/38457386?s=460&v=4">
+                                <span class="name">zengtv</span>
+                                <span class="time">8:31 AM</span>
+                                <p class="txt">I pay for the 4Mb/sec down, 512 Kb/sec up service from O2, and haven't had any problems. In fact, it's relatively quick, and stable. It's not perfect, but I really don't have issues, as long as I keep track of what I'm doing on it. I max out at about 3 Mb/sec down, and 350 Kb/sec up. Probably because of a noisy telephone line, not because I'm being throttled. When my uploads go over 25 KB/sec (note, bytes, not bits), my download speed suffers. This is expected, as downloads require upload bandwidth as well. </p>
+                            </li>
+                            <li><span class="date" style="color: #2096ef">New Message</span></li>
+                        </ul>
+                    </div>
+                    <!-- 当前会话start -->
+                    <div class="m-chatnow">
+                        <ul style="border: none">
+                            <li>
+                                <img class="headpic" src="images/person1.png">
+                                <span class="name">Bessie Berry</span>
+                                <span class="time">8:31 AM</span>
+                                <p class="txt">I pay for the 4Mb/sec down, 512 Kb/sec up service from O2. In fact, it's relatively quick, and stable. It's not perfect, but I really don't have issues, as long as I keep track of what I'm doing on it. </p>
+                            </li>
+                        </ul>
+                        <label for="put"></label>
+                        <div class="onput">
+                            <i class="fa fa-plus f-fl"></i>
+                            <input type="text" id="put" class="f-fl" value="Well, kinda both :) but more of that second option, i`ve seen many systems infected and crawling with">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
