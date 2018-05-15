@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b98db5f-5bd7-458e-8756-d0f470cd9afd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/day12-15/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/day12-15/css/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="8b98db5f-5bd7-458e-8756-d0f470cd9afd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -37,8 +35,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day12-15/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="486" column="4" selection-start-line="486" selection-start-column="4" selection-end-line="487" selection-end-column="34" />
+            <state relative-caret-position="540">
+              <caret line="414" column="16" lean-forward="true" selection-start-line="414" selection-start-column="16" selection-end-line="414" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -75,9 +73,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-11" />
-    <option name="y" value="21" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="7" />
+    <option name="y" value="179" />
     <option name="width" value="1883" />
     <option name="height" value="912" />
   </component>
@@ -117,7 +115,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Hexo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -156,16 +154,15 @@
       <workItem from="1525594201171" duration="11417000" />
       <workItem from="1525607504466" duration="947000" />
       <workItem from="1525954927707" duration="2474000" />
-      <workItem from="1526299473491" duration="4316000" />
+      <workItem from="1526299473491" duration="4981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22399000" />
+    <option name="totallyTimeSpent" value="23064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="21" width="1883" height="912" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2498645" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -275,8 +272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day12-15/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="486" column="4" selection-start-line="486" selection-start-column="4" selection-end-line="487" selection-end-column="34" />
+        <state relative-caret-position="540">
+          <caret line="414" column="16" lean-forward="true" selection-start-line="414" selection-start-column="16" selection-end-line="414" selection-end-column="16" />
         </state>
       </provider>
     </entry>
